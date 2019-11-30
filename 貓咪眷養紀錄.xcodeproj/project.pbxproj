@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491583C12390DEB200049892 /* CatChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491583C02390DEB200049892 /* CatChart.swift */; };
 		49C2660E238FD00B00FCBB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2660D238FD00B00FCBB96 /* AppDelegate.swift */; };
 		49C26610238FD00B00FCBB96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */; };
 		49C26614238FD00E00FCBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C26613238FD00E00FCBB96 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		491583C02390DEB200049892 /* CatChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatChart.swift; sourceTree = "<group>"; };
 		49C2660A238FD00B00FCBB96 /* 貓咪一籮筐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "貓咪一籮筐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C2660D238FD00B00FCBB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				49C2660D238FD00B00FCBB96 /* AppDelegate.swift */,
 				49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */,
 				49C2662F238FD77C00FCBB96 /* PetList.swift */,
+				491583C02390DEB200049892 /* CatChart.swift */,
 				49C26635238FE4DA00FCBB96 /* CatEditor.swift */,
 				49C26633238FDE8F00FCBB96 /* CatsData.swift */,
 				49C2662B238FD2E800FCBB96 /* CatRow.swift */,
@@ -161,6 +164,7 @@
 				49C2662A238FD29800FCBB96 /* Pet.swift in Sources */,
 				49C2660E238FD00B00FCBB96 /* AppDelegate.swift in Sources */,
 				49C26634238FDE8F00FCBB96 /* CatsData.swift in Sources */,
+				491583C12390DEB200049892 /* CatChart.swift in Sources */,
 				49C26610238FD00B00FCBB96 /* SceneDelegate.swift in Sources */,
 				49C26630238FD77C00FCBB96 /* PetList.swift in Sources */,
 				49C2662C238FD2E800FCBB96 /* CatRow.swift in Sources */,

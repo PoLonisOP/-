@@ -15,4 +15,5 @@ struct Pet: Identifiable, Codable {
     var Variety: String
     var Gender: Bool
     var weight: Int
+    var pickupTime: Date
 }

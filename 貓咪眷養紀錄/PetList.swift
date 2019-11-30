@@ -12,6 +12,7 @@ struct PetList: View {
     
     @ObservedObject var catsData = CatsData()
     @State private var showEdit = false
+    @State private var showChart = false
     
     var body: some View {
         NavigationView {
@@ -27,7 +28,23 @@ struct PetList: View {
                 }
             }
             .navigationBarTitle("嘿我看到一隻貓")
-            .navigationBarItems(leading: EditButton() ,trailing: Button(action: {
+            .navigationBarItems(leading: Button(action: {
+                
+                self.showChart = true
+                
+            })
+            {
+                HStack {
+                    Image(systemName: "chart.pie.fill")
+                    Image(systemName: "arrow.left.and.right")
+                    Image(systemName: "chart.bar.fill")
+                }
+            }
+            .sheet(isPresented: self.$showChart)
+            {
+                CatChart(catsData: self.catsData)
+            }
+            , trailing: Button(action: {
                 
                 self.showEdit = true
                 
@@ -41,6 +58,7 @@ struct PetList: View {
                          CatEditor(catsData: self.catsData)
                     }
                 }
+                //.background(View)
         }
     }
 }
