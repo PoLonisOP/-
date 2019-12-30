@@ -42,7 +42,7 @@ struct PetList: View {
             }
             .sheet(isPresented: self.$showChart)
             {
-                CatChart(catsData: self.catsData)
+                CatChartTab()
             }
             , trailing: Button(action: {
                 

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		491583C12390DEB200049892 /* CatChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491583C02390DEB200049892 /* CatChart.swift */; };
+		494CDA212394C82600F94890 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CDA202394C82600F94890 /* PieChart.swift */; };
+		494CDA232394EABA00F94890 /* CatChart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CDA222394EABA00F94890 /* CatChart2.swift */; };
+		494CDA252394EACF00F94890 /* CatChartTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CDA242394EACF00F94890 /* CatChartTab.swift */; };
 		49C2660E238FD00B00FCBB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2660D238FD00B00FCBB96 /* AppDelegate.swift */; };
 		49C26610238FD00B00FCBB96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */; };
 		49C26614238FD00E00FCBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C26613238FD00E00FCBB96 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		491583C02390DEB200049892 /* CatChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatChart.swift; sourceTree = "<group>"; };
+		494CDA202394C82600F94890 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		494CDA222394EABA00F94890 /* CatChart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatChart2.swift; sourceTree = "<group>"; };
+		494CDA242394EACF00F94890 /* CatChartTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatChartTab.swift; sourceTree = "<group>"; };
 		49C2660A238FD00B00FCBB96 /* 貓咪一籮筐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "貓咪一籮筐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C2660D238FD00B00FCBB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,10 +76,13 @@
 				49C2660F238FD00B00FCBB96 /* SceneDelegate.swift */,
 				49C2662F238FD77C00FCBB96 /* PetList.swift */,
 				491583C02390DEB200049892 /* CatChart.swift */,
+				494CDA242394EACF00F94890 /* CatChartTab.swift */,
+				494CDA222394EABA00F94890 /* CatChart2.swift */,
 				49C26635238FE4DA00FCBB96 /* CatEditor.swift */,
 				49C26633238FDE8F00FCBB96 /* CatsData.swift */,
 				49C2662B238FD2E800FCBB96 /* CatRow.swift */,
 				49C26629238FD29800FCBB96 /* Pet.swift */,
+				494CDA202394C82600F94890 /* PieChart.swift */,
 				49C26613238FD00E00FCBB96 /* Assets.xcassets */,
 				49C26618238FD00E00FCBB96 /* LaunchScreen.storyboard */,
 				49C2661B238FD00E00FCBB96 /* Info.plist */,
@@ -161,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494CDA232394EABA00F94890 /* CatChart2.swift in Sources */,
+				494CDA212394C82600F94890 /* PieChart.swift in Sources */,
 				49C2662A238FD29800FCBB96 /* Pet.swift in Sources */,
+				494CDA252394EACF00F94890 /* CatChartTab.swift in Sources */,
 				49C2660E238FD00B00FCBB96 /* AppDelegate.swift in Sources */,
 				49C26634238FDE8F00FCBB96 /* CatsData.swift in Sources */,
 				491583C12390DEB200049892 /* CatChart.swift in Sources */,
